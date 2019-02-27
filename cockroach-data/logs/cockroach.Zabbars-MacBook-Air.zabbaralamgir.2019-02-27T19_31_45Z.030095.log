@@ -1,0 +1,31 @@
+I190227 19:31:45.907616 1 util/log/clog.go:1176  [config] file created at: 2019/02/27 19:31:45
+I190227 19:31:45.907616 1 util/log/clog.go:1176  [config] running on machine: Zabbars-MacBook-Air
+I190227 19:31:45.907616 1 util/log/clog.go:1176  [config] binary: CockroachDB CCL v2.1.5 (x86_64-apple-darwin18.2.0, built 2019/02/19 16:35:28, go1.11.5)
+I190227 19:31:45.907616 1 util/log/clog.go:1176  [config] arguments: [cockroach start]
+I190227 19:31:45.907616 1 util/log/clog.go:1176  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+W190227 19:31:45.907615 1 cli/start.go:935  Using the default setting for --cache (128 MiB).
+  A significantly larger value is usually needed for good performance.
+  If you have a dedicated server a reasonable setting is --cache=.25 (1.0 GiB).
+W190227 19:31:45.908800 1 cli/start.go:948  Using the default setting for --max-sql-memory (128 MiB).
+  A significantly larger value is usually needed in production.
+  If you have a dedicated server a reasonable setting is --max-sql-memory=.25 (1.0 GiB).
+I190227 19:31:45.908985 1 cli/start.go:1069  CockroachDB CCL v2.1.5 (x86_64-apple-darwin18.2.0, built 2019/02/19 16:35:28, go1.11.5)
+I190227 19:31:46.028326 1 server/config.go:386  system total memory: 4.0 GiB
+I190227 19:31:46.028477 1 server/config.go:388  server configuration:
+max offset             500000000
+cache size             128 MiB
+SQL memory pool size   128 MiB
+scan interval          10m0s
+scan min idle time     10ms
+scan max idle time     1s
+event log enabled      true
+I190227 19:31:46.028514 1 cli/start.go:920  process identity: uid 501 euid 501 gid 20 egid 20
+I190227 19:31:46.028565 1 cli/start.go:545  starting cockroach node
+E190227 19:31:46.212249 1 cli/error.go:230  cannot load certificates.
+Check your certificate settings, set --certs-dir, or use --insecure for insecure clusters.
+
+problem with CA certificate: not found
+Error: cannot load certificates.
+Check your certificate settings, set --certs-dir, or use --insecure for insecure clusters.
+
+problem with CA certificate: not found
