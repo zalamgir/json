@@ -1,1 +1,13 @@
-{"Tweeter-go": "", "tweets": [{"handle":"KING HENRY IV", "content": "A", "handle": "John", "content": "B"}]}
+{
+  "json-test":
+  [ 
+    {
+        "handle":"KING HENRY IV", 
+	"content": "A"
+     },	
+     {
+        "handle": "John", 
+	"content": "B"
+     }
+   ]
+}

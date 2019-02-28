@@ -8,7 +8,7 @@ conn = psycopg2.connect(database="tweeter_db", user="tweeteruser", host="localho
 conn.set_session(autocommit=True)
 curr = conn.cursor()
 
-url =  "https://github.com/zalamgir/json/blob/master/shakespeare-tweets.json"
+url =  "https://github.com/zalamgir/json/blob/master/tweets/tweet-2.json"
 after = {"after": "null"}
 
 for n in range(300000):
